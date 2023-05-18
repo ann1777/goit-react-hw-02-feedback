@@ -23,6 +23,7 @@ export const FeedbackButton = styled.button`
 
   :hover,
   :focus {
+    scale: 1.05;
     background-color: ${p => p.theme.colors.secondary};
     color: ${p => p.theme.colors.accent};
     svg {

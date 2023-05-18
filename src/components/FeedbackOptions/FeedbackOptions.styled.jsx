@@ -6,3 +6,4 @@ export const BtnWrapper = styled.ul`
   justify-content: center;
   gap: ${props => props.theme.space[4]}px;
 `;
+
