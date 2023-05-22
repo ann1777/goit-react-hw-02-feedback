@@ -19,6 +19,6 @@ export const BtnFeedback = ({
 BtnFeedback.propTypes = {
   icon: PropTypes.any.isRequired,
   type: PropTypes.string.isRequired,
-  onClick: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired,
   children: PropTypes.string.isRequired,
 };
